@@ -14,6 +14,13 @@ $("document").ready(function(){
     // Need User, Repo, and Branch from GitHub (maybe have branch default to Master?)
     }); // end of newCard click event
 
+  $("#goHome").on("click", function(){
+    $(".repoCards").show();
+    $("#searchContainerID").hide();
+    console.log("the goHome click worked");
+    // Need User, Repo, and Branch from GitHub (maybe have branch default to Master?)
+    }); // end of newCard click event
+
 // Test Data
 let avatar_urlTest = 'https://avatars1.githubusercontent.com/u/36715261?v=4';
 let usernameTest = 'Testy McTest';
